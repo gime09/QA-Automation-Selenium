@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <!--class name="Edit.EducacionIt.Laboratorio2"/-->
+      <class name="Edit.EducacionIt.Laboratorio1">
+	      <methods>
+	        <include name="lab1_e1" />
+	      </methods>
+      </class>
+      <!--class name="Edit.EducacionIt.Laboratorio3_Ejercicio1"/>
+      <class name="Edit.EducacionIt.AppTest"/-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

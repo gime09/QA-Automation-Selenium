@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Modulo05 - Desafio" verbose="2">
+
+    <!-- Ejercicio 1: Sauce Demo -->
+    <test name="Sauce Demo - PreOrden desde Excel">
+        <classes>
+            <class name="saucedemo.SauceDemoTest"/>
+        </classes>
+    </test>
+
+    <!-- Ejercicio 2: OrangeHRM -->
+    <test name="OrangeHRM - Usuarios y Empleados">
+        <classes>
+            <class name="orangehrm.Test_BonusTrack5b"/>
+        </classes>
+    </test>
+
+    <!-- Etapa 5.1: Login AutomationPractice -->
+    <test name="AutomationPractice - Login invalido desde Excel">
+        <classes>
+            <class name="automationpractice.Etapa51Test"/>
+        </classes>
+    </test>
+
+    <!-- Etapa 5.2: File Upload -->
+    <test name="Guru99 - Subir archivo">
+        <classes>
+            <class name="automationpractice.Etapa52Test"/>
+        </classes>
+    </test>
+
+    <!-- Etapa 5.3: Alertas -->
+    <test name="DemoQA - Manejo de alertas">
+        <classes>
+            <class name="automationpractice.Etapa53Test"/>
+        </classes>
+    </test>
+
+    <!-- Etapa 5.4: Tabla HTML -->
+    <test name="Guru99 - Leer tabla HTML">
+        <classes>
+            <class name="automationpractice.Etapa54Test"/>
+        </classes>
+    </test>
+
+
+
+
+
+
+</suite>
