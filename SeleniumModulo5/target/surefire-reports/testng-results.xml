@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-16T04:37:25 ART" name="SuiteDesafio6" finished-at="2026-07-16T04:38:41 ART" duration-ms="76238">
+    <groups>
+    </groups>
+    <test started-at="2026-07-16T04:37:25 ART" name="Desafio6 - Headless" finished-at="2026-07-16T04:38:08 ART" duration-ms="42879">
+      <class name="saucedemo.Desafio6SauceDemoTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@31304f14]" started-at="2026-07-16T04:37:27 ART" name="setUp" finished-at="2026-07-16T04:37:34 ART" duration-ms="6594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="generarPreOrden(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@31304f14]" started-at="2026-07-16T04:37:34 ART" name="generarPreOrden" data-provider="datosDesdeExcel" finished-at="2026-07-16T04:37:51 ART" duration-ms="16783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Juan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Perez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generarPreOrden -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.Desafio6SauceDemoTest@31304f14]" started-at="2026-07-16T04:37:51 ART" name="tearDown" finished-at="2026-07-16T04:37:51 ART" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@31304f14]" started-at="2026-07-16T04:37:51 ART" name="setUp" finished-at="2026-07-16T04:37:53 ART" duration-ms="1724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="generarPreOrden(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@31304f14]" started-at="2026-07-16T04:37:53 ART" name="generarPreOrden" data-provider="datosDesdeExcel" finished-at="2026-07-16T04:38:07 ART" duration-ms="14469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Garcia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generarPreOrden -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.Desafio6SauceDemoTest@31304f14]" started-at="2026-07-16T04:38:07 ART" name="tearDown" finished-at="2026-07-16T04:38:08 ART" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.Desafio6SauceDemoTest -->
+    </test> <!-- Desafio6 - Headless -->
+    <test started-at="2026-07-16T04:38:08 ART" name="Desafio6 - Incognito" finished-at="2026-07-16T04:38:41 ART" duration-ms="33265">
+      <class name="saucedemo.Desafio6SauceDemoTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@233795b6]" started-at="2026-07-16T04:38:08 ART" name="setUp" finished-at="2026-07-16T04:38:10 ART" duration-ms="2331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="generarPreOrden(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@233795b6]" started-at="2026-07-16T04:38:10 ART" name="generarPreOrden" data-provider="datosDesdeExcel" finished-at="2026-07-16T04:38:16 ART" duration-ms="5855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Juan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Perez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generarPreOrden -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.Desafio6SauceDemoTest@233795b6]" started-at="2026-07-16T04:38:16 ART" name="tearDown" finished-at="2026-07-16T04:38:18 ART" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@233795b6]" started-at="2026-07-16T04:38:18 ART" name="setUp" finished-at="2026-07-16T04:38:20 ART" duration-ms="2224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="generarPreOrden(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemo.Desafio6SauceDemoTest@233795b6]" started-at="2026-07-16T04:38:20 ART" name="generarPreOrden" data-provider="datosDesdeExcel" finished-at="2026-07-16T04:38:32 ART" duration-ms="11747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Garcia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generarPreOrden -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemo.Desafio6SauceDemoTest@233795b6]" started-at="2026-07-16T04:38:32 ART" name="tearDown" finished-at="2026-07-16T04:38:41 ART" duration-ms="9000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.Desafio6SauceDemoTest -->
+    </test> <!-- Desafio6 - Incognito -->
+  </suite> <!-- SuiteDesafio6 -->
+</testng-results>
